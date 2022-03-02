@@ -1,0 +1,118 @@
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  * {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+  body {
+    background-color: black;
+    font-family: "Inter";
+    margin: 0px;
+  }
+  
+  .navlist {
+    color: white;
+    list-style-type: none; 
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .birdname-item:hover {
+    filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%) contrast(87%); 
+    cursor: pointer;
+  }
+
+  .birdname-item {
+    transition: 0.3s;;
+  }
+  
+  .headerfirst {
+    display: flex;
+    align-items: center;
+    font-size: 20px; 
+    padding: 0px;
+    height: 70px;
+    position: relative;
+  }
+  
+  .logo {
+    transition: 0.3s;
+    height: 50px;
+    width: 50px;
+  }
+  
+  
+  .nav {
+    font-family: "Inter";
+    margin-left: auto;
+  }
+  
+  
+  main {
+    display: flex;
+    justify-content: center;
+    background-image: url(./assets/img/forest/1.jpg);
+    background-size: cover;
+    align-items: center;
+    height: calc(93vh - 100px);
+  }
+  
+  .video-button {
+    position: absolute ;
+    display: flex;
+    border: 0;
+    outline: none; 
+    background: transparent;
+    transition: 0.5s;
+  }
+
+  .video-button img {
+    width: 150px;
+  }
+  
+  .video-button:hover {
+    filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%) contrast(87%); 
+    cursor: pointer;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
+  footer {
+    padding-top: 1%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    align-items: center;
+  }
+
+  .footer-rolling {
+    height: 50px;
+    width: 100px;
+    margin-right: 100px;
+  }
+  
+  .footer-data {
+    margin-left: 20px;
+    color: white;
+  }
+
+  .active {
+    color: #bdae82;
+    cursor: pointer;
+  }
+  
